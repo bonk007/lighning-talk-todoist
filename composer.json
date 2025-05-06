@@ -1,0 +1,20 @@
+{
+    "name": "bonk007/lightning-talk-todoist",
+    "description": "Todo plugins for lightning talk project",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^12.12"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Todoist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayi Muhammad Iqbal Nasuha",
+            "email": "bonk007@gmail.com"
+        }
+    ]
+}
