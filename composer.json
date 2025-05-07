@@ -3,7 +3,8 @@
     "description": "Todo plugins for lightning talk project",
     "type": "library",
     "require": {
-        "laravel/framework": "^12.12"
+        "laravel/framework": "^12.12",
+        "livewire/livewire": "^3.6"
     },
     "license": "MIT",
     "autoload": {
@@ -16,5 +17,12 @@
             "name": "Ayi Muhammad Iqbal Nasuha",
             "email": "bonk007@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Todoist\\TodoistServiceProvider"
+            ]
+        }
+    }
 }
